@@ -11,12 +11,10 @@
 
     <title>Movie Collection Info</title>
 
-
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link href="local.min.css" rel="stylesheet">
     <link rel="stylesheet" href = "http://cdn.datatables.net/plug-ins/725b2a2115b/integration/bootstrap/3/dataTables.bootstrap.css">
 
-    <!-- Custom Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -25,7 +23,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
     <script  type="text/javascript" language="javascript"  src='//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.1/js/jquery.dataTables.min.js'></script>
+    <script  type="text/javascript" language="javascript"  src='//cdn.datatables.net/plug-ins/725b2a2115b/api/fnStandingRedraw.js'></script>
+
     <script  type="text/javascript" language="javascript"  src='https://cdn.datatables.net/plug-ins/725b2a2115b/integration/bootstrap/3/dataTables.bootstrap.js'></script>
+
 
 
 </head>
@@ -67,22 +68,15 @@
 
     <!-- Portfolio Grid Section -->
 
-    <section id="result">
+    <section id="result" style = "visibility : none">
 
         <div class = "container">
-                <div class="col-lg-8 col-lg-offset-2 ">
+                <div class="col-lg-12 ">
        <div  id = "message">
         </div> 
         </div>
         <div id="example_wrapper" class="dataTables_wrapper span8 offset2">
         <table id="movieInfo" class="table table-striped table-bordered">
-            <thead>
-            <tr>
-                <th>Video files found</th>
-                <th>Movie</th>
-                <th>Imdb Rating</th>
-                <th>Genres</th>
-            </tr>
         </thead>
         </table>
         </div>
@@ -99,10 +93,10 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Video files are searched on the basis of file extension. Then using TheMovieDb api movie information is populated in data table. Movies are sorted by Imdb ratings</p>
+                    <p>Video files are searched on the basis of file extension. Then using Tmdb api movie information is populated in datatable. Movies are sorted by Imdb ratings.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p> Your movie collection information is not stored on server. You have full privacy.</p>
+                    <p> Nothing is uploaded to server. We don't store your movie collection information.</p>
                 </div>
 
             </div>
