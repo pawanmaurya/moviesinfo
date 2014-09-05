@@ -9,12 +9,11 @@ I recently started my movie collection and as it was growing I got confused for 
 It was tedius to copy paste every single movie on google, so I created this web app. 
 (And it's my first open source project project.)
 
-
 Overview
 ==========
 The main idea was to put everything in frontend, for quick results.
 TMDB, Imdb and youtube api are used for getting genre,rating and trailer respectively.
-
+![alt tag](demo.jpg)
 
 TODO
 ==========
