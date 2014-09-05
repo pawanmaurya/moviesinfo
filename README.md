@@ -1,4 +1,4 @@
-MoviesInfo
+MoviesInfo (webapp)
 ==========
 
 Get instant information (imdb link, rating, genre and trailer) for your local movies collection.
