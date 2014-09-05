@@ -18,5 +18,5 @@ TMDB, Imdb and youtube api are used for getting genre,rating and trailer respect
 TODO
 ==========
 1. recommandation
-2. sharing movies list maybe
+2. sharing movies list (maybe)
 3. waiting for more suggestions
