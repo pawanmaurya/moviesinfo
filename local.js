@@ -121,7 +121,7 @@ $(document).ready(function () {
     }
 
     function getVideoFileNames(files) {
-        var videoExts = ["avi", "mp4", "flv", "divx", "mov", "mkv", "webm"]; 
+        var videoExts = ["avi", "mp4", "flv", "divx", "mov", "mkv", "webm","m4v"]; 
 
         var file, tempFiles = [];
         for (var i = 0, len = files.length; i < len; i++) {
